@@ -1,6 +1,7 @@
-    name: mt5_flutter_app
-description: Bot MT5 Mobile
+name: mt5_flutter_app
+description: Bot MT5 Mobile Application
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
@@ -9,16 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # Menggunakan Dio untuk request REST API ke cloud bridge MT5 (seperti MetaApi)
-  dio: ^5.4.0
-  
-  # Menggunakan WebSocket untuk menerima data harga (stream quotes) secara real-time
-  web_socket_channel: ^3.0.1
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
